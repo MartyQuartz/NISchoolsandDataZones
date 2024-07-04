@@ -20,8 +20,6 @@ jobs:
 
       - name: Github Pages Deploy Action
         uses: avinal/github-pages-deploy-action@v0.9
-            
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-
